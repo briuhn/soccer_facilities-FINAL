@@ -1,0 +1,11 @@
+spring:
+   datasource:
+      username: soccer_facilities
+      password: soccer_facilities
+      url: jdbc:mysql://localhost:3306/soccer_facilities
+      
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
